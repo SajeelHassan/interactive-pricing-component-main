@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> -->
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>Creating*** | Frontend Mentor | Interactive pricing component</title>
+  </head>
+
+  <body>
+    <span class="content-bkg">
+      <div class="upper-bg"></div>
+    </span>
+    <div class="wrapper">
+
+      <div class="main-content d-flex-sp f-c">
+        <div class="heading d-flex-c f-c">
+          <span class='pos-abs heading-bg'><svg xmlns="http://www.w3.org/2000/svg" width="146" height="145">
+              <g fill="none" fill-rule="evenodd" stroke="#CFD8EF">
+                <circle cx="63" cy="82" r="62.5" />
+                <circle cx="105" cy="41" r="40.5" />
+              </g>
+            </svg></span>
+          <div class="main-h">
+            <h1>Simple, traffic-based pricing</h1>
+          </div>
+          <div class="main-h-d">
+            <p>Sign-up for our 30-day trial. No credit card required.</p>
+          </div>
+        </div>
+
+        <div class="box-content-wrapper">
+          <div class="box-content">
+            <div class="views-prices mgt-2 d-flex-sp">
+              <div class="pg-views-count"><span id="t-count">100K</span> PAGEVIEWS</div>
+              <div class="per-month"><span class="price" id='price-mnly'>$16.00</span> / month</div>
+            </div>
+            <div class="main-slider mgt-2"><input type="range" name="price-range" id="price-selector"
+                class='range-slider'></div>
+            <div class="billing-section mgt-3 mgb-2">
+              <div class="billing d-flex-sp "> <span class='no-visibility'></span> <span>Monthly Billing </span><span
+                  id="toggle-btn" class='bill-toggle-btn'><label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label></span> <span>Yearly Billing</span>
+                <span class="discount-text">
+                  <p>25%
+                    discount</p>
+                </span>
+              </div>
+            </div>
+
+            <div class="bottom-section mgt-3 ">
+
+              <div class="features d-flex-sp f-c mgt-1">
+                <div class="feature">
+                  <p> <span><svg xmlns="http://www.w3.org/2000/svg" width="9" height="8">
+                        <path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1" />
+                      </svg></span> Unlimited websites</p>
+                </div>
+                <div class="feature">
+                  <p> <span><svg xmlns="http://www.w3.org/2000/svg" width="9" height="8">
+                        <path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1" />
+                      </svg></span> 100% data ownership</p>
+                </div>
+                <div class="feature">
+                  <p> <span><svg xmlns="http://www.w3.org/2000/svg" width="9" height="8">
+                        <path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1" />
+                      </svg></span> Email reports</p>
+                </div>
+
+              </div>
+              <button class='trial-btn'>Start my trial</button>
+            </div>
+          </div>
+        </div>
+        <hr class='bottom-separater'>
+      </div>
+    </div>
+
+
+    <!-- <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+
+</html>
