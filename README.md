@@ -1,6 +1,6 @@
 # Interactive pricing component
 
-![Design preview for the Interactive pricing component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Interactive pricing component coding challenge](./src/design/desktop-design.jpg)
 
 ## Welcome! 👋
 
