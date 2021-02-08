@@ -144,7 +144,7 @@ body{
   }
   
   #toggle-btn input:checked + .slider {
-    background-color: hsl(15, 100%, 70%);;
+    background-color: hsl(174, 77%, 80%)
   }
   
   #toggle-btn input:focus + .slider {
@@ -220,7 +220,8 @@ color: hsl(228, 45%, 44%);
   
   /* Mouse-over effects */
   .range-slider:hover {
-    opacity: 1;
+
+    background-color: hsl(174, 99%, 29%);
   }
   
   /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
@@ -231,13 +232,13 @@ color: hsl(228, 45%, 44%);
     height: 40px; /* Slider handle height */
     border-radius: 50%;
     background-color: hsl(174, 86%, 45%); /* Green background */
-    cursor: pointer; 
+    
     background-image: url("/images/icon-slider.svg");
     background-repeat: no-repeat;
     background-position:center;
     z-index: 10;
     box-shadow: 0px 9px 30px -3px hsl(174, 86%, 45%);
-    
+    cursor: pointer; 
   }
   
   .range-slider::-moz-range-thumb {
@@ -250,6 +251,7 @@ color: hsl(228, 45%, 44%);
     background-repeat: no-repeat;
     background-position:center;
     z-index: 10;
+    cursor: pointer; 
   }
   .discount-text p{
     background-color: hsl(14, 92%, 95%);
@@ -283,11 +285,15 @@ color: hsl(228, 45%, 44%);
   .trial-btn{
       margin-top:1rem;
       width:10rem;
-      height:3rem;
+      height:2.1rem;
       border-radius:100px;
       border: none;
       color:hsl(226, 100%, 87%);
       background-color: hsl(227, 35%, 25%);
       cursor: pointer;
       outline: none;
+      
+  }
+  .trial-btn:hover{
+    color:white;
   }

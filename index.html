@@ -36,15 +36,17 @@
         <div class="box-content-wrapper">
           <div class="box-content">
             <div class="views-prices mgt-2 d-flex-sp">
-              <div class="pg-views-count"><span id="t-count">100K</span> PAGEVIEWS</div>
+              <div class="pg-views-count"><span id="t-count">100K PAGEVIEWS</span></div>
               <div class="per-month"><span class="price" id='price-mnly'>$16.00</span> / month</div>
             </div>
-            <div class="main-slider mgt-2"><input type="range" name="price-range" min='8' max='36' class='range-slider'
-                id='what-range'></div>
+            <div class="main-slider mgt-2"><input type="range" name="price-range" min='0' max='100' step='25'
+                class='range-slider' id='what-range'>
+
+            </div>
             <div class="billing-section mgt-3 mgb-2">
               <div class="billing d-flex-sp "> <span class='no-visibility'></span> <span>Monthly Billing </span><span
                   id="toggle-btn" class='bill-toggle-btn'><label class="switch">
-                    <input type="checkbox">
+                    <input type="checkbox" id='toggler-chkbox'>
                     <span class="slider round"></span>
                   </label></span> <span>Yearly Billing</span>
                 <span class="discount-text">
@@ -87,6 +89,7 @@
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.
     </div> -->
+    <script src='app.js'></script>
   </body>
 
 </html>
