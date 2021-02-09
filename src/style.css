@@ -236,7 +236,7 @@ color: hsl(228, 45%, 44%);
     border-radius: 50%;
     background-color: hsl(174, 86%, 45%); /* Green background */
     
-    background-image: url("/images/icon-slider.svg");
+    background-image: url("./images/icon-slider.svg");
     background-repeat: no-repeat;
     background-position:center;
     z-index: 10;
