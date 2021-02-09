@@ -3,7 +3,7 @@ const price = document.getElementById('price-mnly')
 
 const viewsOnPrice = document.getElementById('t-count')
 slider.addEventListener('click', mUpRange)
-
+slider.addEventListener('onTouch', mUpRange)
 const toggler = document.getElementById('toggler-chkbox')
 
 toggler.addEventListener('click', mUpRange)
