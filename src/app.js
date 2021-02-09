@@ -2,7 +2,7 @@ const slider = document.getElementById('what-range')
 const price = document.getElementById('price-mnly')
 
 const viewsOnPrice = document.getElementById('t-count')
-slider.addEventListener('mouseup', mUpRange)
+slider.addEventListener('click', mUpRange)
 
 const toggler = document.getElementById('toggler-chkbox')
 
